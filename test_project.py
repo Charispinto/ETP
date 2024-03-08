@@ -2,7 +2,7 @@ from project import get_pdf_text, get_text_chunks,get_vectorstore
 
 
 def test_get_pdf_text():
-    pdf_doc = ['./cs50p_test.pdf']
+    pdf_doc = ['./test.pdf']
     assert get_pdf_text(pdf_doc) == "Hello! This is my cs50p final project.  "
 
 
